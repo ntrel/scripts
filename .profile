@@ -8,6 +8,7 @@ alias gpr='git pull --rebase'
 alias gd='sh /c/git/scripts/git-diff.sh'
 alias gc='git commit'
 alias gca='git commit --amend'
+alias gco='sh /c/git/scripts/git-checkout.sh'
 alias gf='git fetch'
 
 cd /c/git
