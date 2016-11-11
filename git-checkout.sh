@@ -27,7 +27,6 @@ if [ ! $PULL ]; then
     git checkout -b $BRANCH
 else
     [[ $CO != "" ]] && echo Both flags set! && exit;
-    [[ $2 != "" ]] && echo "Can't provide REPO with -p" && exit;
     git checkout $BRANCH || exit;
-    git pull --ff-only;
+    git pull --ff-only $REPO $BRANCH
 fi
