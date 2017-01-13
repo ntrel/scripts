@@ -9,8 +9,9 @@ alias gd='sh /c/git/scripts/git-diff.sh'
 alias gds='sh /c/git/scripts/git-diff.sh show'
 alias gc='git commit -v'
 alias gca='git commit -v --amend'
-alias gco='sh /c/git/scripts/git-checkout.sh'
+alias gco='git checkout'
 alias gf='git fetch'
+alias gg='sh /c/git/scripts/git-checkout.sh'
 
 cd /c/git
 eval $(ssh-agent -s)
