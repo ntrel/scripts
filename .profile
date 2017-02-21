@@ -12,6 +12,7 @@ alias gca='git commit -v --amend'
 alias gco='git checkout'
 alias gf='git fetch'
 alias gg='sh /c/git/scripts/git-checkout.sh'
+alias gl='git log --graph --decorate'
 
 cd /c/git
 eval $(ssh-agent -s)
