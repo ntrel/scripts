@@ -5,6 +5,8 @@ PATH=$PATH:/c/Program\ Files/Geany/bin/:/c/Program\ Files/Mozilla\ Firefox/:/c/P
 alias gs='git status'
 alias gp='git pull --ff-only'
 alias gpr='git pull --rebase'
+
+alias ga='git add'
 alias gd='sh /c/git/scripts/git-diff.sh'
 alias gwd='git diff --word-diff=color'
 alias gds='sh /c/git/scripts/git-diff.sh show'
