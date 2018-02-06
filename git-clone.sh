@@ -4,6 +4,7 @@ URL=https://github.com/$1/$2
 [[ $2 == '' ]] && echo "Usage: $0 [-g] user reponame" && exit
 echo Cloning $1/$2:
 git clone $URL
+cd $2
 
 case $URL in h*)
 	URL="git@github.com:ntrel/$2.git"
