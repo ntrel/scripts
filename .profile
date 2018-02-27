@@ -20,6 +20,8 @@ alias gf='git fetch'
 alias gg='git grep -F'
 alias gcp='sh /c/git/scripts/git-checkout.sh'
 alias gl='git log --graph --decorate'
+alias grb='git rebase'
+alias gst='git stash'
 
 cd /c/git
 eval $(ssh-agent -s)
