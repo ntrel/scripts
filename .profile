@@ -2,7 +2,8 @@
 EDITOR='geany.exe -i'
 export EDITOR
 alias gi=$EDITOR
-PATH=$PATH:/c/Program\ Files/Geany/bin/:/c/Program\ Files/Mozilla\ Firefox/:/c/Program\ Files/Google/Chrome/Application:/c/DMC/dm/bin
+PATH=$PATH:/c/Program\ Files/Geany/bin/:/c/Program\ Files/Mozilla\ Firefox/:/c/Program\ Files/Google/Chrome/Application:/c/DMC/dm/bin:/c/MinGW/bin:/c/v
+alias clang="/c/Program\ Files/LLVM/bin/clang"
 
 alias gs='git status'
 alias gp='git pull --ff-only'
