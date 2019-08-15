@@ -2,8 +2,12 @@
 EDITOR='geany.exe -i'
 export EDITOR
 alias gi=$EDITOR
+export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/mingw32/lib/pkgconfig
+
 PATH=$PATH:/c/Program\ Files/Geany/bin/:/c/Program\ Files/Mozilla\ Firefox/:/c/Program\ Files/Google/Chrome/Application:/c/DMC/dm/bin:/c/MinGW/bin:/c/v
 alias clang="/c/Program\ Files/LLVM/bin/clang"
+alias dmake='HOST_DC=dmd /c/D/dmd2/windows/bin/make.exe'
+alias opera='/c/Users/Anka/AppData/Local/Programs/Opera/launcher.exe'
 
 alias gs='git status'
 alias gp='git pull --ff-only'
