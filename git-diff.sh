@@ -3,4 +3,9 @@ CMD='diff'
 [[ $1 == -s ]] && CMD+=' --staged' && shift
 
 F=$(dirname $0)/git.diff
-git $CMD $@ >$F && geany $F
+git $CMD $@ >$F
+if [[ `cat $F` == '' ]]; then 
+	echo "No changes."
+else
+	geany $F
+fi
