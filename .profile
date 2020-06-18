@@ -4,10 +4,9 @@ export EDITOR
 alias gi=$EDITOR
 export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/mingw32/lib/pkgconfig
 
-PATH=$PATH:/c/Program\ Files/Geany/bin/:/c/Program\ Files/Mozilla\ Firefox/:/c/Program\ Files/Google/Chrome/Application:/c/DMC/dm/bin:/c/MinGW/bin:/c/v
+PATH=$PATH:/c/Program\ Files/Geany/bin/:/c/Program\ Files/Mozilla\ Firefox/:/c/Program\ Files/Google/Chrome/Application:/c/Program\ Files\ \(x86\)/Google/Chrome/Application:/c/DMC/dm/bin:/c/MinGW/bin:/c/v
 alias clang="/c/Program\ Files/LLVM/bin/clang"
 alias dmake='HOST_DC=dmd /c/D/dmd2/windows/bin/make.exe'
-alias opera='/c/Users/Anka/AppData/Local/Programs/Opera/launcher.exe'
 
 alias gs='git status'
 alias gp='git pull --ff-only'
@@ -15,12 +14,17 @@ alias gpr='git pull --rebase'
 
 alias ga='git add'
 alias gb='git branch'
+
 alias gd='git diff'
 alias ggd='sh /c/git/scripts/git-diff.sh'
+alias gds='sh /c/git/scripts/git-diff.sh show'
 alias gwd='git diff --word-diff=color'
+
 alias gc='git commit -v'
 alias gca='git commit -v --amend'
-alias gco='git checkout'
+
+# gco is too close to gc and is destructive
+alias gko='git checkout'
 alias gcp='git cherry-pick'
 alias gf='git fetch'
 alias gg='git grep -Fn'
