@@ -1,3 +1,7 @@
 # git config --global core.excludesfile $PWD/../scripts/.gitignore
 git.diff
 nmt*
+.todo
+
+*.exe
+*.obj
