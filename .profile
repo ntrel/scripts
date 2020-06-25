@@ -14,6 +14,7 @@ alias gpr='git pull --rebase'
 
 alias ga='git add'
 alias gb='git branch'
+alias grs='git reset'
 
 alias gd='git diff'
 alias ggd='sh /c/git/scripts/git-diff.sh'
@@ -24,7 +25,7 @@ alias gc='git commit -v'
 alias gca='git commit -v --amend'
 
 # gco is too close to gc and is destructive
-alias gko='git checkout'
+alias gcko='git checkout'
 alias gcp='git cherry-pick'
 alias gf='git fetch'
 alias gg='git grep -Fn'
