@@ -3,6 +3,7 @@
 *.exe
 *.obj
 *nmt.*
+.todo
 
 geany_private.res
 src/makefile.win32

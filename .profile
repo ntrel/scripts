@@ -14,7 +14,8 @@ alias gpr='git pull --rebase'
 
 alias ga='git add'
 alias gb='git branch'
-alias grs='git reset'
+alias gbd='git branch --sort=-committerdate'
+alias gbl='git blame'
 
 alias gd='git diff'
 alias ggd='sh /c/git/scripts/git-diff.sh'
@@ -30,8 +31,11 @@ alias gcp='git cherry-pick'
 alias gf='git fetch'
 alias gg='git grep -Fn'
 alias gfc='sh /c/git/scripts/git-checkout.sh'
+alias gfm='gcko master && gp'
+alias gl1='git log --pretty=oneline --abbrev-commit'
 alias gl='git log --graph --decorate'
 alias grb='git rebase'
+alias grs='git reset'
 alias gst='git stash'
 
 cd /c/git
