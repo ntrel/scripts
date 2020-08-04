@@ -34,7 +34,11 @@ alias gfc='sh /c/git/scripts/git-checkout.sh'
 alias gfm='gcko master && gp'
 alias gl1='git log --pretty=oneline --abbrev-commit'
 alias gl='git log --graph --decorate'
+
 alias grb='git rebase'
+alias grbc='grb --continue'
+alias grbm='gf && grb origin/master'
+
 alias grs='git reset'
 alias gst='git stash'
 
