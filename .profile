@@ -25,6 +25,7 @@ alias gca='git commit -v --amend'
 alias gcko='git checkout'
 alias gcp='git cherry-pick'
 alias gf='git fetch'
+alias gfo='git fetch origin'
 alias gfc='sh /c/git/scripts/git-checkout.sh'
 alias gg='git grep -Fn'
 alias glo='git log --pretty=oneline --abbrev-commit'
@@ -32,7 +33,7 @@ alias gl='git log --graph --decorate'
 
 alias grb='git rebase'
 alias grbc='grb --continue'
-alias grbm='gf && grb origin/master'
+alias grbm='gfo && grb origin/master'
 
 alias gp='git pull --ff-only'
 alias gpm='gcko master && gp'
@@ -41,6 +42,9 @@ alias gpr='git pull --rebase'
 alias grs='git reset'
 alias gs='git status'
 alias gst='git stash'
+alias gstm='gst push -m'
+alias gsw='git switch'
+
 
 cd /c/git
 eval $(ssh-agent -s)
