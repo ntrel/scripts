@@ -4,7 +4,7 @@ export EDITOR
 alias gi=$EDITOR
 export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/mingw32/lib/pkgconfig
 
-PATH=$PATH:/c/Program\ Files/Geany/bin/:/c/Program\ Files/Mozilla\ Firefox/:/c/Program\ Files/Google/Chrome/Application:/c/Program\ Files\ \(x86\)/Google/Chrome/Application:/c/DMC/dm/bin:/c/v:/c/mingw-w64/mingw32/bin
+PATH=$PATH:/c/Program\ Files/Geany/bin/:/c/Program\ Files/Mozilla\ Firefox/:/c/Program\ Files/Google/Chrome/Application:/c/Program\ Files\ \(x86\)/Google/Chrome/Application:/c/DMC/dm/bin:/c/v:/c/mingw-w64/mingw32/bin:/c/Users/ntrel/Geany\ 1.36/bin
 #/c/MinGW/bin
 alias clang="/c/Program\ Files/LLVM/bin/clang"
 alias dmake='HOST_DC=dmd /c/D/dmd2/windows/bin/make.exe'
