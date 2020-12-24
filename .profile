@@ -25,6 +25,7 @@ alias gca='git commit -v --amend'
 alias gcko='git checkout'
 alias gcp='git cherry-pick'
 alias gf='git fetch'
+alias gfn='git fetch ntrel'
 alias gfo='git fetch origin'
 alias gfc='sh /c/git/scripts/git-checkout.sh'
 alias gg='git grep -Fn'
@@ -44,6 +45,8 @@ alias gs='git status'
 alias gst='git stash'
 alias gstm='gst push -m'
 alias gsw='git switch'
+
+alias vout='/c/git/vdev/tools/mktest.exe ./v.exe'
 
 
 cd /c/git
