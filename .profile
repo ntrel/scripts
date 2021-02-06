@@ -43,7 +43,7 @@ alias gpr='git pull --rebase'
 alias grs='git reset'
 alias gs='git status'
 alias gst='git stash'
-alias gstm='gst push -m'
+alias gstp='gst push'
 alias gsw='git switch'
 
 alias vout='/c/git/vdev/tools/mktest.exe ./v.exe'
