@@ -9,6 +9,8 @@ PATH=$PATH:/c/Program\ Files/Geany/bin/:/c/Program\ Files/Mozilla\ Firefox/:/c/P
 alias clang="/c/Program\ Files/LLVM/bin/clang"
 alias dmake='HOST_DC=dmd /c/D/dmd2/windows/bin/make.exe'
 
+alias fg='grep -F'
+
 alias ga='git add'
 alias gb='git branch'
 alias gbd='git branch --sort=-committerdate'
@@ -40,10 +42,14 @@ alias gp='git pull --ff-only'
 alias gpm='gcko master && gp'
 alias gpr='git pull --rebase'
 
+alias grest='git restore'
 alias grs='git reset'
 alias gs='git status'
+
 alias gst='git stash'
+alias gsto='gst && gcko origin/master && gst pop'
 alias gstp='gst push'
+
 alias gsw='git switch'
 
 alias vout='/c/git/vdev/tools/mktest.exe ./v.exe'
