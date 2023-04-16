@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 [[ $1 == "" ]] && echo Usage: $0 [-c] 310 [branchname] && exit
 [[ $1 == "-c" ]] && CO=1 && shift
 
